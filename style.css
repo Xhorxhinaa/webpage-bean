@@ -1,0 +1,202 @@
+*{
+   margin:0;
+   padding: 0;
+   width: 100%;
+   /* box-sizing: border-box; */
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+ /* background-color: #8D0B41;*/
+}
+
+ul{
+  display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(0, 8, 255);
+}
+header h1 {
+  font-size: 24px;
+  color: black;
+}
+header li{
+  display: inline;
+  list-style: none;
+}
+
+button{
+  width: fit-content;
+}
+
+.welcome{
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('image/bean.jpg');
+  background-size: cover;
+  display:inline-block;
+}
+.welcome_1{
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('image/a_b.jpg');
+  background-size: cover;
+  display:inline-block;
+  color: aliceblue;
+}
+.welcome_1 p {
+  background-color: #00000052;
+  padding: 80px;
+}
+.welcome_1 h1 {
+
+  color:#350e35db;;
+}
+.welcome_2{
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('image/beans_kutia.jpg');
+  background-size: cover;
+  display:inline-block;
+  color: aliceblue;
+}
+ 
+.welcome_2 p{
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.how_we_work {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.how_we_work h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.step {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.step h3 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 16px;
+  color:black;
+  line-height: 1.5;
+}
+
+.beans_unique {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+}
+.beans_unique .content {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+.beans_unique h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.beans_unique p {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+.beans_unique img{
+ background-image: url(image/Different-Types.jpg);
+  flex: 1;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  
+}
+.b img {
+  background-image: url(image/b.jpg);
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px 10px;
+}
+
+.f_classes {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  gap: 20px; /* Add spacing between child elements */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.f_class {
+  flex: 1; /* Make all columns equal width */
+  text-align: center; /* Center-align content */
+  margin: 10px; /* Add some margin for spacing */
+}
+
+.f_class img {
+  max-width: 100px; 
+  border-radius: 8px;
+}
+
+.f_class ul {
+  list-style: none; 
+  padding: 0;
+}
+
+.f_class ul li {
+  margin: 5px 0;
+}
+
+.f_class ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.f_class ul li a:hover {
+  color: #007bff; 
+}
